@@ -1,3 +1,16 @@
-*{
-    padding:20px;
+.header{
+   
+   margin-top: 2px;
+}
+h3{
+    white-space: pre-line;
+}
+.navbar-brand{
+    margin-left: 10px;
+}
+li{
+    margin-right: 30px;
+}
+#Content img{
+    height: 150px;
 }

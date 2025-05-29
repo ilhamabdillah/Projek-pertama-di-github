@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
     
     <title>Belajar Github nih</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark d-flex align-items-center justify-content-center
+    <nav class="navbar navbar-expand-lg bg-light navbar-light d-flex align-items-center justify-content-center
     py-3" >
         <a href="#" class="navbar-brand">Portofolio</a>
 
@@ -23,18 +25,145 @@
         <div class="collapse navbar-collapse" id="navmenu">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
-                    <a href="" class="nav-link">Content</a>
+                    <a href="#Content" class="nav-link">Content</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link">About</a>
+                    <a href="#search" class="nav-link">search</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link">Contact us</a>
+                    <a href="#Contact" class="nav-link">Contact us</a>
                 </li>
             </ul>
         </div>
-    
     </nav>
+
+    <!--header-->
+
+   <section class="header bg-light text-dark text-center text-sm-start">   
+    <div class="container">
+        <div class="d-flex align-items-center" >
+          <div>
+            <h1>Haloo <span class="text-secondary">Selamat</span> Datang Di <span class="text-secondary">Portofolio</span></h1>
+            <h3>Ilham Abdillah</h3>
+            <p>Hi, I’m A passionate landscape photographer</p>
+
+            <button class="btn btn-dark btn-lg">
+                Cek Disini
+            </button>
+          </div>
+
+        <img 
+        class="img-fluid w-50 d-none d-sm-block" 
+        src="develop.svg" 
+        alt="develop">
+        </div>
+    </div>
+   </section>
+
+   <!--services-->
+   <section class="pt-5" id="Content">
+    <div class="container">
+        <div class="row text-center g-4">
+            <div class="col-md">
+                        <div class="card bg-light" >
+                <img src="fotographer.svg" class="p-2 card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">fotographer</h5>
+                    <p class="card-text">Mengabadikan momen terbaik dalam bentuk landscape, human interest, dan potret dengan sudut pandang unik dan pencahayaan natural.</p>
+                    <a href="#" class="btn btn-dark">Hasil Foto</a>
+                </div>
+                </div>
+            </div>
+            <div class="col-md">
+                    <div class="card bg-info-subtle text-dark border-0" >
+                <img src="videographer.svg" class="p-2 card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">videographer</h5>
+                    <p class="card-text">Membuat video cinematic dari berbagai event, dokumentasi perjalanan, dan konten media sosial yang engaging & berkualitas tinggi.</p>
+                    <a href="#" class="btn btn-secondary">Hasil video</a>
+                </div>
+                </div>
+            </div>
+              <div class="col-md"><div class="card bg-light" >
+            <img src="edit.svg" class="p-2 card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">editing</h5>
+                <p class="card-text">Menguasai tools editing seperti Lightroom & CapCut untuk menyempurnakan warna, tone, dan transisi dalam foto maupun video.</p>
+                <a href="#" class="btn btn-dark">Hasil editing</a>
+            </div>
+            </div></div>
+            </div>
+    </div>
+
+   </section>
+    
+   <!--search-->
+   <section class="bg-dark text-light p-5 " id="search">
+     <div class="container">
+        <div class="d-md-flex justify-content-between align-items-center">
+            <h3>Search</h3>
+
+            <div class="input-group">
+                <input type="text" class="form-control"
+                placeholder="Masukkan teks">
+                <button class="btn btn-secondary btn-lg"
+                type="button">cari</button>
+            </div>
+        </div> 
+     </div>
+
+   </section>
+
+   <!--contact us-->
+   <section class="p-5" id="Contact">
+    <div class="container">
+        <div class="row g-4 align-items-center">
+            <div class="col-md">
+                <h2 class="text-center mb-4">Contact Us</h2>
+                <ul class="list-group list-group-flush" lead>
+                    <li class="list-group-item">
+                        <i class="bi bi-geo-fill"></i>
+                        <span class="fw-bold">Alamat</span>
+                        <br>Perumahan Grand Mutiara Persada, Jalan Matahari
+                    </li>
+
+                    <li class="list-group-item">
+                        <i class="bi bi-whatsapp"></i>
+                        <span class="fw-bold">NO.WhatsApp</span>
+                        <br>(+62) 895-3599-64096
+                    </li>
+                    <li class="list-group-item">
+                        <i class="bi bi-instagram"></i>
+                        <span class="fw-bold">Instagram</span>
+                        <br>@iam.abdillh
+                    </li>
+                    <li class="list-group-item">
+                        <i class="bi bi-envelope-at"></i>
+                        <span class="fw-bold">E-Mail</span>
+                        <br>Service:nebulaa1322@gmail.com
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md">
+                 <img 
+        class="img-fluid d-none d-lg-block" 
+        src="contact.svg" 
+        alt="contact">
+            </div>
+        </div>
+    </div>
+
+   </section>
+
+   <footer class="p-5 bg-secondary text-light text-center position-relative">
+        <div class="container">
+            <p class="lead">Copyright &copy; 2025</p>
+
+            <a href="#" class="position-absolute buttom-0 end-0">
+            <i class="bi bi-arrow-up-circle"></i>
+            </a>
+        </div>
+   </footer>
 
    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js" integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D" crossorigin="anonymous"></script>
